@@ -1,0 +1,8 @@
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\bin\Debug\ConsoleApplication.exe
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\bin\Debug\ConsoleApplication.pdb
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\obj\x86\Debug\RockPaperScissors.csproj.AssemblyReference.cache
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\obj\x86\Debug\RockPaperScissors.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\obj\x86\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Kuba\source\repos\RockPaperScissorsCSharp\obj\x86\Debug\ConsoleApplication.pdb
