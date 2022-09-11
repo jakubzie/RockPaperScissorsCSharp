@@ -21,7 +21,7 @@ namespace RockPaperScissors
                 do
                 {
                     Console.Write("WprowadŸ swój wybór ([R]ock / [P]aper / [S]cissors): ");
-                    userChoice = Console.ReadLine();
+                    userChoice = Console.ReadLine().ToUpper();
                     if (userChoice == "R" || userChoice == "P" || userChoice == "S")
                     {
                         Console.WriteLine("Komputer wybra³: " + aiChoice);
@@ -73,13 +73,13 @@ namespace RockPaperScissors
                 {
                     Console.Write("Czy chcesz zagraæ ponownie (Tak/Nie): ");
                     string doYouPlay;
-                    doYouPlay = Console.ReadLine();
-                    if (doYouPlay == "Tak")
+                    doYouPlay = Console.ReadLine().ToLower();
+                    if (doYouPlay == "tak")
                     {
                         play = true;
                         ask = false;
                     }
-                    else if (doYouPlay == "Nie")
+                    else if (doYouPlay == "nie")
                     {
                         play = false;
                         ask = false;
@@ -91,7 +91,19 @@ namespace RockPaperScissors
                     }
                 }
             }
-            Console.WriteLine("\nKomputer wygra³ " + aiWin + " razy || Gracz wygra³ " + userWin + " razy. Dziêkujemy za rozgrywkê :)");
+            Console.WriteLine("\nKomputer wygra³ " + aiWin + " razy || Gracz wygra³ " + userWin + " razy.");
+            if (userWin > aiWin)
+            {
+                Console.WriteLine("Wygrywa gracz! Gratulujemy i dziêkujemy za rozgrywkê!");
+            }
+            else if (aiWin > userWin)
+            {
+                Console.WriteLine("Wygrywa komputer! Nie poddawaj siê, nastêpnym razem siê uda!");
+            }
+            else
+            {
+                Console.WriteLine("Remis! Co za niespodzianka ;o");
+            }
             Console.ReadLine();
         }
     }
