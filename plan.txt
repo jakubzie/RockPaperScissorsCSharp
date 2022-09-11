@@ -1,0 +1,4 @@
+﻿1. losowanie wyboru komputera
+2. pobranie wyboru gracza
+3. porównanie
+4. wyznaczenie zwycięzcy
