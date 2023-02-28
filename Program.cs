@@ -74,12 +74,12 @@ namespace RockPaperScissors
                     Console.Write("Czy chcesz zagraæ ponownie (Tak/Nie): ");
                     string doYouPlay;
                     doYouPlay = Console.ReadLine().ToLower();
-                    if (doYouPlay == "tak")
+                    if (doYouPlay.ToLower() == "tak")
                     {
                         play = true;
                         ask = false;
                     }
-                    else if (doYouPlay == "nie")
+                    else if (doYouPlay.ToLower() == "nie")
                     {
                         play = false;
                         ask = false;
