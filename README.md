@@ -8,8 +8,8 @@ To run the game, simply compile and run the Program.cs file using any C# compile
 
 ## Prerequisites
 
-    A C# compiler (such as Visual Studio, .NET SDK, or Mono)
-    .NET Framework (if using Windows)
+* A C# compiler (such as Visual Studio, .NET SDK, or Mono)
+* .NET Framework (if using Windows)
 
 ## How to Play
 
